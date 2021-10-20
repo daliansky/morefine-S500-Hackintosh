@@ -1,4 +1,4 @@
-# minisforum S500 hackintosh
+# morefine S500 hackintosh
 
 [![U820](screenshots/U820.jpg)](https://hackintosher.taobao.com)
 
@@ -6,7 +6,7 @@
 
 |   规格    |                           详细信息                           |
 | :-------: | :----------------------------------------------------------: |
-| 电脑型号  |                       minisforum S500                        |
+| 电脑型号  |                        morefine S500                         |
 | 操作系统  |                 macOS `Monterey` / `Big Sur`                 |
 |  处理器   |               英特尔 酷睿 i9-10880H 8核16线程                |
 |   内存    |                      32 GB DDR4 2933MHz                      |
@@ -88,9 +88,9 @@
 
 ## 其它信息
 
-minisforum 黑苹果交流群：[869792897](https://qm.qq.com/cgi-bin/qm/qr?k=TdIS59sEdBCjbz8NbdrQ2IyPG6bMza3_&jump_from=webapi)
+morefine 黑苹果交流群：[869792897](https://qm.qq.com/cgi-bin/qm/qr?k=TdIS59sEdBCjbz8NbdrQ2IyPG6bMza3_&jump_from=webapi)
 
-minisforum S500购买链接：[黑果小兵的部落阁](https://hackintosher.taobao.com/) 
+morefine S500购买链接：[黑果小兵的部落阁](https://hackintosher.taobao.com/) 
 
 ## 感谢名单：
 
