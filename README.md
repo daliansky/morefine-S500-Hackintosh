@@ -1,6 +1,6 @@
 # morefine S500 hackintosh
 
-[![U820](screenshots/U820.jpg)](https://hackintosher.taobao.com)
+[![S500](ScreenShots/S500.png)](https://hackintosher.taobao.com)
 
 ## 电脑配置
 
@@ -60,6 +60,8 @@
 
 
 ## 截屏
+
+![ morefine s500](./ScreenShots/S5002.png)
 
 ![DualDisplays](ScreenShots/DualDisplays.png)
 
