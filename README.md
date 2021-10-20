@@ -7,9 +7,9 @@
 |   规格    |                           详细信息                           |
 | :-------: | :----------------------------------------------------------: |
 | 电脑型号  |                       minisforum S500                        |
-| 操作系统  |                 macOS `Big Sur` / `Monterey`                 |
+| 操作系统  |                 macOS `Monterey` / `Big Sur`                 |
 |  处理器   |               英特尔 酷睿 i9-10880H 8核16线程                |
-|   内存    |                        32 GB 2933MHz                         |
+|   内存    |                      32 GB DDR4 2933MHz                      |
 |  硬盘1/2  | WD SN750 **WDS100T3X0C** 1TB/<br />支持双NVMe或NVMe+SATA SSD或双SATA SSD |
 |  硬盘/3   |                    可接SATA 2.5寸硬盘/SSD                    |
 |   显卡    |                    Intel UHD Graphics 630                    |
