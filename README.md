@@ -85,6 +85,10 @@
 
 ![WIFI](ScreenShots/WIFI.png)
 
+![ALC_HP](ScreenShots/ALC_HP.png)
+
+![ALC_MicIn](ScreenShots/ALC_MicIn.png)
+
 ![AirDrop](ScreenShots/Handoff.png)
 
 
