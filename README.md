@@ -90,7 +90,7 @@
 
 ## 其它信息
 
-morefine 黑苹果交流群：[869792897](https://qm.qq.com/cgi-bin/qm/qr?k=TdIS59sEdBCjbz8NbdrQ2IyPG6bMza3_&jump_from=webapi)
+morefine 黑苹果交流群：[275356796](https://qm.qq.com/cgi-bin/qm/qr?k=H7hFwiVkZq71L7se6rz3hE9QcacqL-dV&jump_from=webapi)
 
 morefine S500购买链接：[黑果小兵的部落阁](https://hackintosher.taobao.com/) 
 
