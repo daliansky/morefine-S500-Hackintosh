@@ -1,6 +1,6 @@
 # morefine S500 hackintosh
 
-[![S500](ScreenShots/S500.png)](https://hackintosher.taobao.com)
+[![S500](ScreenShots/S5003.png)](https://hackintosher.taobao.com)
 
 ## 电脑配置
 
