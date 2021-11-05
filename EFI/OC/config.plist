@@ -3,11 +3,11 @@
 <plist version="1.0">
     <dict>
         <key>#Build Date</key>
-        <string>10-19-2021</string>
+        <string>8-11-2021</string>
         <key>#Maker by</key>
-        <string>morefine S500小主机专用EFI</string>
+        <string>TinyMonster ECO/S210H小主机专用EFI</string>
         <key>#OpenCore Version</key>
-        <string>v0.7.5 Release</string>
+        <string>v0.7.1 Release</string>
         <key>#Posted on</key>
         <string>黑果小兵的部落阁 https://blog.daliansky.net</string>
         <key>ACPI</key>
@@ -295,7 +295,7 @@
                     <key>BundlePath</key>
                     <string>RealtekRTL8111.kext</string>
                     <key>Comment</key>
-                    <string>V2.4.2d0</string>
+                    <string>V2.4.2d0 | RTL8111 patches</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -385,7 +385,7 @@
                     <key>BundlePath</key>
                     <string>USBPorts.kext</string>
                     <key>Comment</key>
-                    <string>V1.0 | USBPorts for Morefine S500</string>
+                    <string>V1.0 | USBPorts for Minisforum</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -493,7 +493,7 @@
                     <key>BundlePath</key>
                     <string>AirportItlwm_for_BigSur.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.0 | INTEL无线网卡WIFI for BigSur</string>
+                    <string>V2.1.0 | INTEL WIFI for BigSur</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -511,7 +511,7 @@
                     <key>BundlePath</key>
                     <string>AirportItlwm_for_Monterey.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.0 | INTEL无线网卡WIFI for Monterey</string>
+                    <string>V2.1.0 | INTEL WIFI for Monterey</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -525,11 +525,29 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>itlwm.kext</string>
+                    <key>Comment</key>
+                    <string>V2.1.0 | INTEL WIFI 二选一需要配合 HeliPort 使用</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/itlwm</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
                     <string>IntelBluetoothInjector.kext</string>
                     <key>Comment</key>
-                    <string>V2.0.1 | INTEL无线网卡BT</string>
+                    <string>V2.0.1 | INTEL BlueTooth</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -547,29 +565,11 @@
                     <key>BundlePath</key>
                     <string>IntelBluetoothFirmware.kext</string>
                     <key>Comment</key>
-                    <string>V2.0.1 | INTEL无线网卡BT</string>
+                    <string>V2.0.1 | INTEL BlueTooth</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelBluetoothFirmware</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>x86_64</string>
-                    <key>BundlePath</key>
-                    <string>itlwm.kext</string>
-                    <key>Comment</key>
-                    <string>V2.1.0 | INTEL无线网卡WIFI驱动二选一</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/itlwm</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -740,7 +740,7 @@
                 <key>BlacklistAppleUpdate</key>
                 <true/>
                 <key>DmgLoading</key>
-                <string>Signed</string>
+                <string>Any</string>
                 <key>EnablePassword</key>
                 <false/>
                 <key>ExposeSensitiveData</key>
@@ -954,7 +954,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string></string>
+                <string>C02142501CD00001H</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -968,9 +968,9 @@
                 <key>SystemProductName</key>
                 <string>iMac20,2</string>
                 <key>SystemSerialNumber</key>
-                <string></string>
+                <string>C02GK2Y8046M</string>
                 <key>SystemUUID</key>
-                <string></string>
+                <string>30C44522-06B2-40CB-ACD7-438ECD41C54A</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
