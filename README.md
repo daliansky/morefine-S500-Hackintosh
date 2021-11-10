@@ -21,15 +21,21 @@
 
 ## 更新日志
 
-- 10-19-2021
+- 11-10-2021
   
+  - Release `v1.1.0`
+  - 支持 `Type-C` + `DP` + `HDMI` 三屏输出(HDMI 4k@30hz)
+  - 更新 `OpenCore` `v0.7.6`
+  
+- 10-19-2021
+
   - Release `v1.0.0`
   - 默认支持 `Type-C` + `DP` 双显输出，未来会提供`DP` + `HDMI` 双显输出
   - 更新 `OpenCore` 为 `v0.7.5`
   - 请使用工具  [OCAT_Mac.dmg](https://github.com/ic005k/QtOpenCoreConfig/releases) 编辑 `config.plist` 
+
   
-  
-  
+
 
 ### 设置`BIOS`
 
@@ -63,9 +69,13 @@
 
 ![ morefine s500](./ScreenShots/S5002.png)
 
-![DualDisplays](ScreenShots/DualDisplays.png)
+![DualDisplays](ScreenShots/ThreeDisplays.png)
 
-![Graphics](ScreenShots/Graphics.png)
+![Graphics](ScreenShots/ThreeDisplays2.png)
+
+![Graphics](ScreenShots/ThreeDisplays3.png)
+
+![Graphics](ScreenShots/HDMI-Audio.png)
 
 ![Hackintool_Misc](ScreenShots/Hackintool_Misc.png)
 
@@ -81,7 +91,7 @@
 
 ![NVMe](ScreenShots/NVMe.png)
 
-![Sensei](ScreenShots/Sensei.png)
+
 
 ![WIFI](ScreenShots/WIFI.png)
 
@@ -90,6 +100,8 @@
 ![ALC_MicIn](ScreenShots/ALC_MicIn.png)
 
 ![AirDrop](ScreenShots/Handoff.png)
+
+![Sensei](ScreenShots/Sensei.png)![Sensei](ScreenShots/Sensei_Graphics.png)
 
 
 ## 其它信息
