@@ -75,8 +75,6 @@
 
 ![Graphics](ScreenShots/ThreeDisplays3.png)
 
-![Graphics](ScreenShots/HDMI-Audio.png)
-
 ![Hackintool_Misc](ScreenShots/Hackintool_Misc.png)
 
 ![iTerm2](ScreenShots/iTerm2.png)
@@ -95,7 +93,7 @@
 
 ![WIFI](ScreenShots/WIFI.png)
 
-![ALC_HP](ScreenShots/ALC_HP.png)
+![ALC_HP](ScreenShots/HDMI-Audio.png)
 
 ![ALC_MicIn](ScreenShots/ALC_MicIn.png)
 
