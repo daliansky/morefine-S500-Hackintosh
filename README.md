@@ -58,7 +58,9 @@
 
 - 其它参数默认即可
 
+## 安装教程
 
+[morefine S500 黑苹果安装教程](https://github.com/daliansky/morefine-S500-Hackintosh/wiki/Installer)
 
 ## 注意事项
 
