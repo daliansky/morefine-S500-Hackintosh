@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19H1417</string>
+	<string>21A559</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -29,19 +29,19 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>12B45b</string>
+	<string>13A1030d</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>11.0</string>
+	<string>12.0</string>
 	<key>DTSDKBuild</key>
-	<string>20A2408</string>
+	<string>21A344</string>
 	<key>DTSDKName</key>
-	<string>macosx11.0</string>
+	<string>macosx12.0</string>
 	<key>DTXcode</key>
-	<string>1220</string>
+	<string>1310</string>
 	<key>DTXcodeBuild</key>
-	<string>12B45b</string>
+	<string>13A1030d</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ALCUserClientProvider</key>
@@ -3016,31 +3016,6 @@
 					<data>
 					AwAAAA==
 					</data>
-					<key>Codec</key>
-					<string>Andres ZeroCross - Intel NUC NUC10i5FNH</string>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>ConfigData</key>
-					<data>
-					ASccMAEnHQEBJx6gAScfkAGXHCABlx0QAZce
-					gQGXHwECFxwQAhcdEAIXHgECFx8BAhcMAg==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>24</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AhcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
 					<key>CodecID</key>
 					<integer>283902550</integer>
 					<key>Comment</key>
@@ -3057,36 +3032,6 @@
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>CodecID</key>
-					<integer>283902550</integer>
-					<key>Comment</key>
-					<string>insanelyme - ALC256 for Huawei Matebook D15 2018 (MRC-W10)</string>
-					<key>ConfigData</key>
-					<data>
-					ASccMAEnHQEBJx6mAScfkAE3HPABNx0AATce
-					AAE3H0ABRxwRAUcdAQFHHhcBRx+QAUcMAgGH
-					HPABhx0AAYceAAGHH0ABlxxAAZcdEAGXHoEB
-					lx8EAacc8AGnHQABpx4AAacfQAG3HBABtx0B
-					AbceFwG3H5ABtwwCAdcc8AHXHQAB1x4AAdcf
-					QAHnHPAB5x0AAeceAAHnH0ACFxwgAhcdEAIX
-					HiECFx8EAhcMAg==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>33</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AbcMAg==
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
@@ -9898,31 +9843,6 @@
 					<key>CodecID</key>
 					<integer>283904146</integer>
 					<key>Comment</key>
-					<string>ALC892 for ASRock B365 Pro4 By TheHackGuy</string>
-					<key>ConfigData</key>
-					<data>
-					AUccEAFHHUABRx4BAUcfAQFHDAIBhxwgAYcd
-					kAGHHqABhx+BAaccMAGnHTABpx6BAacfAQ==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>23</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>CodecID</key>
-					<integer>283904146</integer>
-					<key>Comment</key>
 					<string>ALC892 for Clevo P751DMG by Cryse Hillmes</string>
 					<key>ConfigData</key>
 					<data>
@@ -11226,7 +11146,7 @@
 					<integer>35</integer>
 					<key>WakeConfigData</key>
 					<data>
-					AUcMAgG3DAI=
+					AUcMAg==
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
@@ -11378,32 +11298,6 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>3</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAgG3DAI=
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>CodecID</key>
-					<integer>283904768</integer>
-					<key>CodecName</key>
-					<string>ALCS1200A for B550M Gaming Carbon WIFI by Kila2</string>
-					<key>ConfigData</key>
-					<data>
-					AUccEAFHHVABRx4RAUcfkQFHDAIBZxwgAWcd
-					EAFnHgEBZx8BAVccMAFXHRABVx4BAVcfAQGH
-					HEABhx0QAYceoQGHH5EBpxxQAacdEAGnHoEB
-					px8BAZccYAGXHZABlx6BAZcfAgG3HHABtx1A
-					AbceIQG3HwIBtwwCAecckAHnHREB5x5FAecf
-					AQEXHPABFx0AARceAAEXH0ABdxzwAXcdAAF3
-					HgABdx9A
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>7</integer>
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAgG3DAI=
@@ -13837,32 +13731,6 @@
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAgG3DAI=
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>Conexant CX11970 (CX8400) for Acer Swift 3 SF313 (Ice Lake) by b0ltun</string>
-					<key>CodecID</key>
-					<integer>351346896</integer>
-					<key>ConfigData</key>
-					<data>
-					AXccEAF3HQEBdx4XAXcfkQF3DAIBlxwgAZcd
-					kAGXHoEBlx8EAWccEAFnHUABZx4hAWcfBAFn
-					DAIBlwckAaccIAGnHQEBpx6gAacfkAGnByQ=
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>13</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AXcMAgFnDAIBlwckAacHJA==
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
