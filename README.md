@@ -36,8 +36,9 @@
 
   
 
-
 ### 设置`BIOS`
+
+[BIOS设置图文教程](https://github.com/daliansky/morefine-S500-Hackintosh/wiki/BIOS-Setup)
 
 - 安全菜单：
 
