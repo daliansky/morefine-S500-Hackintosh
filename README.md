@@ -38,7 +38,7 @@
 
 ### 设置`BIOS`
 
-[BIOS设置图文教程](https://github.com/daliansky/morefine-S500-Hackintosh/wiki/BIOS-Setup)
+[BIOS设置图文教程](https://github.com/daliansky/morefine-S500-Hackintosh/wiki/BIOS设置)
 
 - 安全菜单：
 
@@ -60,7 +60,7 @@
 
 ## 安装教程
 
-[morefine S500 黑苹果安装教程](https://github.com/daliansky/morefine-S500-Hackintosh/wiki/Installer)
+[morefine S500 黑苹果安装教程](https://github.com/daliansky/morefine-S500-Hackintosh/wiki/安装教程)
 
 ## 注意事项
 
