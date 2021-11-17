@@ -62,6 +62,10 @@
 
 [morefine S500 黑苹果安装教程](https://github.com/daliansky/morefine-S500-Hackintosh/wiki/安装教程)
 
+## morefine S500评测
+
+[请点击前往](https://www.bilibili.com/video/bv1dL4y1v7yx)
+
 ## 注意事项
 
 登录 `Apple ID` 之前，请务必重新生成三码，否则有可能会导致无法登录 `App Store`，教程详见群公告里的链接
