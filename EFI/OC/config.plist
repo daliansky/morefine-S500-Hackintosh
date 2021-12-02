@@ -16,7 +16,7 @@
             <array>
                 <dict>
                     <key>Comment</key>
-                    <string>仿冒并覆盖嵌入式控制器，并强制USB电源属性</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -24,7 +24,7 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>禁用AWAC时钟，启用RTC时钟</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -32,7 +32,7 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>启用CPU原生电源管理</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -40,7 +40,7 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>添加缺失设备，APP9876，NVRAM相关</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -244,7 +244,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.7 | Patch engine</string>
+                    <string>V1.5.8 | Patch engine</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -424,7 +424,7 @@
                     <key>BundlePath</key>
                     <string>USBPorts.kext</string>
                     <key>Comment</key>
-                    <string>V1.0 | USBPorts for Minisforum</string>
+                    <string>V1.0 | USBPorts for Morefine S500</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -442,7 +442,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.5</string>
+                    <string>V1.5.6</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -450,7 +450,7 @@
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
-                    <string>12.0.0</string>
+                    <string></string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -538,7 +538,7 @@
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>20.99.99</string>
                     <key>MinKernel</key>
                     <string>20.00.00</string>
                     <key>PlistPath</key>
@@ -568,7 +568,7 @@
                     <key>BundlePath</key>
                     <string>itlwm.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.0 | INTEL WIFI 二选一需要配合 HeliPort 使用</string>
+                    <string>V2.1.0 | INTEL WIFI + HeliPort</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -986,13 +986,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string></string>
+                <string>C02035108J90000JC</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data></data>
+                <data>aARYjorK</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -1000,9 +1000,9 @@
                 <key>SystemProductName</key>
                 <string>iMac20,2</string>
                 <key>SystemSerialNumber</key>
-                <string></string>
+                <string>C02D9KZ0046M</string>
                 <key>SystemUUID</key>
-                <string></string>
+                <string>3B71FB5E-F7CE-4E0A-A868-C94C31A2264A</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1140,6 +1140,8 @@
                 <false/>
                 <key>ProvideConsoleGop</key>
                 <true/>
+                <key>ReconnectGraphicsOnConnect</key>
+                <false/>
                 <key>ReconnectOnResChange</key>
                 <false/>
                 <key>ReplaceTabWithSpace</key>
@@ -1201,6 +1203,8 @@
                 <key>DisableSecurityPolicy</key>
                 <false/>
                 <key>EnableVectorAcceleration</key>
+                <false/>
+                <key>EnableVmx</key>
                 <false/>
                 <key>ExitBootServicesDelay</key>
                 <integer>0</integer>
