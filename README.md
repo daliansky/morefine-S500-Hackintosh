@@ -65,6 +65,8 @@
 
 [morefine S500 黑苹果安装教程](https://github.com/daliansky/morefine-S500-Hackintosh/wiki/安装教程)
 
+[BCM94360Z3驱动教程](https://github.com/daliansky/morefine-S500-Hackintosh/wiki/BCM94360Z3%E4%B8%89%E5%A4%A9%E7%BA%BF)
+
 ## morefine S500评测
 
 [请点击前往](https://www.bilibili.com/video/bv1dL4y1v7yx)
