@@ -126,5 +126,3 @@ morefine S500购买链接：[黑果小兵的部落阁](https://hackintosher.taob
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and all the lovely hackintosh work.
 - [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html) For great and detailed guides.
 
-- [jozews321](https://github.com/jozews321) For the injection information in the U820 device properties
-
