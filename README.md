@@ -74,7 +74,8 @@
 ## 注意事项
 
 登录 `Apple ID` 之前，请务必重新生成三码，否则有可能会导致无法登录 `App Store`，教程详见群公告里的链接
-[解决无法登录app store教程](ttps://github.com/daliansky/morefine-S500-Hackintosh/wiki/%E8%A7%A3%E5%86%B3-app-store-%E6%97%A0%E6%B3%95%E7%99%BB%E5%BD%95)
+
+[解决无法登录app store教程](https://github.com/daliansky/morefine-S500-Hackintosh/wiki/%E8%A7%A3%E5%86%B3-app-store-%E6%97%A0%E6%B3%95%E7%99%BB%E5%BD%95)
 
 
 
