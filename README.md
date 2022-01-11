@@ -27,22 +27,23 @@
 - 1-11-2022
   
   - Release `v1.2.0`
-  - 更新 `OpenCore` `v0.7.7`
-  - 新增 `morefine` 主题
+    - 更新 `OpenCore` `v0.7.7`
+    - 新增 `morefine` 主题
 
 - 11-10-2021
   
   - Release `v1.1.0`
-  - 支持 `Type-C` + `DP` + `HDMI` 三屏输出(HDMI 4k@30hz)
-  - 更新 `OpenCore` `v0.7.6`
+    - 支持 `Type-C` + `DP` + `HDMI` 三屏输出(HDMI 4k@30hz)
+    - 更新 `OpenCore` `v0.7.6`
   
 - 10-19-2021
 
   - Release `v1.0.0`
-  - 默认支持 `Type-C` + `DP` 双显输出，未来会提供`DP` + `HDMI` 双显输出
-  - 更新 `OpenCore` 为 `v0.7.5`
-  - 请使用工具  [OCAT_Mac.dmg](https://github.com/ic005k/QtOpenCoreConfig/releases) 编辑 `config.plist` 
+    - 默认支持 `Type-C` + `DP` 双显输出，未来会提供`DP` + `HDMI` 双显输出
+    - 更新 `OpenCore` 为 `v0.7.5`
+    - 请使用工具  [OCAT_Mac.dmg](https://github.com/ic005k/QtOpenCoreConfig/releases) 编辑 `config.plist` 
 
+  
   
 
 ### 设置`BIOS`
@@ -83,7 +84,7 @@
 
 [解决无法登录app store教程](https://github.com/daliansky/morefine-S500-Hackintosh/wiki/%E8%A7%A3%E5%86%B3-app-store-%E6%97%A0%E6%B3%95%E7%99%BB%E5%BD%95)
 
-[DP转HDMI请稳步这里](https://github.com/daliansky/morefine-S500-Hackintosh/wiki/%E5%85%B3%E4%BA%8EDP%E8%BD%ACHDMI%E7%9A%84%E8%BE%93%E5%87%BA%E7%BA%BF%E6%9D%90)
+[DP转HDMI请移步这里](https://github.com/daliansky/morefine-S500-Hackintosh/wiki/%E5%85%B3%E4%BA%8EDP%E8%BD%ACHDMI%E7%9A%84%E8%BE%93%E5%87%BA%E7%BA%BF%E6%9D%90)
 
 
 ## 截屏
