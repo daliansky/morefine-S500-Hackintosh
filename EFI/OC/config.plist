@@ -714,7 +714,7 @@
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>DalianSky\Modern</string>
+                <string>DalianSky\MoreFine</string>
                 <key>PollAppleHotKeys</key>
                 <true/>
                 <key>ShowPicker</key>
@@ -915,7 +915,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v -revsbvmm igfxmpc -cdfon -igfxsku alcverbs=1 alcid=5 debug=0x100 brcmfx-country=#a brcmfx-aspm igfxonln=1</string>
+                    <string>-revsbvmm igfxmpc -cdfon -igfxsku alcverbs=1 alcid=5 debug=0x100 brcmfx-country=#a brcmfx-aspm igfxonln=1</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
