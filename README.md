@@ -10,10 +10,10 @@
 |   规格    |                           详细信息                           |
 | :-------: | :----------------------------------------------------------: |
 | 电脑型号  |                        morefine S500                         |
-| 操作系统  |                 macOS `Monterey` / `Big Sur`                 |
+| 操作系统  |           macOS `Monterey` / `Big Sur` / `Mojave`            |
 |  处理器   |               英特尔 酷睿 i9-10880H 8核16线程                |
 |   内存    |                      32 GB DDR4 2933MHz                      |
-|  硬盘1/2  | WD SN750 **WDS100T3X0C** 1TB/<br />支持双NVMe或NVMe+SATA SSD或双SATA SSD |
+|  硬盘1/2  |   WD SN570 1TB/<br />支持双NVMe或NVMe+SATA SSD或双SATA SSD   |
 |  硬盘/3   |                    可接SATA 2.5寸硬盘/SSD                    |
 |   显卡    |                    Intel UHD Graphics 630                    |
 |  显示器   |                              无                              |
@@ -24,6 +24,11 @@
 
 ## 更新日志
 
+- 2-7-2022
+  
+  - Release `v1.3.0`
+  - 新增对 `Mojave` 的支持
+  
 - 1-11-2022
   
   - Release `v1.2.0`
@@ -91,9 +96,17 @@
 
 ![ morefine s500](./ScreenShots/S5002.png)
 
-![DualDisplays](ScreenShots/ThreeDisplays.png)
+### 支持通用控制
 
-![Graphics](ScreenShots/ThreeDisplays2.png)
+![DualDisplays](ScreenShots/uc1.jpg)
+
+![uc2](ScreenShots/uc2.jpg)
+
+### 支持 `Mojave`
+
+
+
+![Graphics](ScreenShots/Mojave_for_S500.png)
 
 ![Graphics](ScreenShots/ThreeDisplays3.png)
 
