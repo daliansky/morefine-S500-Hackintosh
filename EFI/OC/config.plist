@@ -244,7 +244,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.0 | Patch engine</string>
+                    <string>V1.6.1 | Patch engine</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -316,7 +316,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.8 | Audio patches</string>
+                    <string>V1.7.0 | Audio patches</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -325,6 +325,24 @@
                     <string></string>
                     <key>MinKernel</key>
                     <string>12.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>FeatureUnlock.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.7</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/FeatureUnlock</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -348,11 +366,29 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>RealtekRTL8111_for_Mojave.kext</string>
+                    <key>Comment</key>
+                    <string>V2.4.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/RealtekRTL8111</string>
+                    <key>MaxKernel</key>
+                    <string>19.99.99</string>
+                    <key>MinKernel</key>
+                    <string>18.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
                     <string>AirportBrcmFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.4 | Brcm Airport Fixup</string>
+                    <string>V2.1.5 | Brcm Airport Fixup</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -406,7 +442,7 @@
                     <key>BundlePath</key>
                     <string>RestrictEvents.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.5</string>
+                    <string>V1.0.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -442,7 +478,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.7</string>
+                    <string>V1.5.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -586,7 +622,7 @@
                     <key>BundlePath</key>
                     <string>IntelBluetoothInjector.kext</string>
                     <key>Comment</key>
-                    <string>V2.0.1 | INTEL BlueTooth</string>
+                    <string>V2.1.0 | INTEL BlueTooth</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -604,7 +640,7 @@
                     <key>BundlePath</key>
                     <string>IntelBluetoothFirmware.kext</string>
                     <key>Comment</key>
-                    <string>V2.0.1 | INTEL BlueTooth</string>
+                    <string>V2.1.0 | INTEL BlueTooth</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -616,15 +652,33 @@
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>USBInjectAll.kext</string>
+                    <key>Comment</key>
+                    <string>V0.7.8</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/USBInjectAll</string>
+                    <key>MaxKernel</key>
+                    <string>19.99.99</string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
             </array>
             <key>Block</key>
             <array/>
             <key>Emulate</key>
             <dict>
                 <key>Cpuid1Data</key>
-                <data></data>
+                <data>6gYJAAAAAAAAAAAAAAAAAA==</data>
                 <key>Cpuid1Mask</key>
-                <data></data>
+                <data>/////wAAAAAAAAAAAAAAAA==</data>
                 <key>DummyPowerManagement</key>
                 <false/>
                 <key>MaxKernel</key>
@@ -1028,9 +1082,9 @@
                 <key>JumpstartHotPlug</key>
                 <false/>
                 <key>MinDate</key>
-                <integer>0</integer>
+                <integer>-1</integer>
                 <key>MinVersion</key>
-                <integer>0</integer>
+                <integer>-1</integer>
             </dict>
             <key>AppleInput</key>
             <dict>
@@ -1113,6 +1167,16 @@
                     <true/>
                     <key>Path</key>
                     <string>OpenCanopy.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>CrScreenshotDxe.efi</string>
                 </dict>
             </array>
             <key>Input</key>
