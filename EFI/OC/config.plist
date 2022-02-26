@@ -600,11 +600,11 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>Any</string>
+                    <string>x86_64</string>
                     <key>BundlePath</key>
                     <string>AirportItlwm_for_Mojave.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.0 | INTEL WIFI for Mojave</string>
+                    <string>V2.0.0 | INTEL WIFI for Mojave</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -612,7 +612,7 @@
                     <key>MaxKernel</key>
                     <string>18.99.99</string>
                     <key>MinKernel</key>
-                    <string>18.00.00</string>
+                    <string>18.0.0</string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -700,12 +700,33 @@
                 <key>DummyPowerManagement</key>
                 <false/>
                 <key>MaxKernel</key>
-                <string></string>
+                <string>18.99.99</string>
                 <key>MinKernel</key>
-                <string></string>
+                <string>18.00.00</string>
             </dict>
             <key>Force</key>
-            <array/>
+            <array>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>System/Library/Extensions/IO80211Family.kext</string>
+                    <key>Comment</key>
+                    <string>INTEL WIFI for Mojave</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IO80211Family</string>
+                    <key>Identifier</key>
+                    <string>com.apple.iokit.IO80211Family</string>
+                    <key>MaxKernel</key>
+                    <string>19.99.99</string>
+                    <key>MinKernel</key>
+                    <string>17.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+            </array>
             <key>Patch</key>
             <array/>
             <key>Quirks</key>
@@ -977,17 +998,12 @@
         <dict>
             <key>Add</key>
             <dict>
-                <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
-                <dict>
-                    <key>rtc-blacklist</key>
-                    <data></data>
-                </dict>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-revsbvmm igfxmpc -cdfon -igfxsku alcverbs=1 alcid=5 debug=0x100 brcmfx-country=#a brcmfx-aspm igfxonln=1</string>
+                    <string>-revsbvmm igfxmpc -cdfon -igfxsku alcverbs=1 alcid=5 debug=0x100 brcmfx-country=#a brcmfx-aspm igfxonln=1 -lilubetaall</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
