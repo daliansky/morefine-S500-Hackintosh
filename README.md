@@ -1,7 +1,7 @@
 # morefine S500 hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/morefine-s500-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.7.8-informational.svg)](https://github.com/acidanthera/OpenCorePkg) [![MacOS version](https://img.shields.io/badge/Monterey%20Beta-12.3%2021E5206e-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.3%2020G415-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.7.8-informational.svg)](https://github.com/acidanthera/OpenCorePkg) [![MacOS version](https://img.shields.io/badge/Monterey-12.3%2021E230-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.5%2020G527-informational.svg)](https://www.apple.com/macos)
 
 [![S500](ScreenShots/S5003.png)](https://hackintosher.taobao.com)
 
@@ -24,25 +24,29 @@
 
 ## 更新日志
 
-- 2-7-2022
+- 3-26-2022
   
+  - 修复对 `DP ` / `HDMI` 的音频支持
+  
+- 2-7-2022
+
   - Release `v1.3.0`
   - 更新 `OpenCore` `v0.7.8`
   - 支持 `通用控制`
   - 新增对 `Mojave` 的支持
-  
+
 - 1-11-2022
-  
+
   - Release `v1.2.0`
     - 更新 `OpenCore` `v0.7.7`
     - 新增 `morefine` 主题
 
 - 11-10-2021
-  
+
   - Release `v1.1.0`
     - 支持 `Type-C` + `DP` + `HDMI` 三屏输出(HDMI 4k@30hz)
     - 更新 `OpenCore` `v0.7.6`
-  
+
 - 10-19-2021
 
   - Release `v1.0.0`
@@ -51,7 +55,7 @@
     - 请使用工具  [OCAT_Mac.dmg](https://github.com/ic005k/QtOpenCoreConfig/releases) 编辑 `config.plist` 
 
   
-  
+
 
 ### 设置`BIOS`
 
