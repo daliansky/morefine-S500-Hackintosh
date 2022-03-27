@@ -117,8 +117,10 @@
 					</dict>
 					<key>HS08</key>
 					<dict>
+						<key>Comment</key>
+						<string>USB Receiver</string>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>HS08</string>
 						<key>port</key>
@@ -129,9 +131,9 @@
 					<key>HS09</key>
 					<dict>
 						<key>Comment</key>
-						<string></string>
+						<string>USB Receiver</string>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>HS09</string>
 						<key>port</key>
@@ -317,8 +319,10 @@
 					</dict>
 					<key>HS08</key>
 					<dict>
+						<key>Comment</key>
+						<string>USB Receiver</string>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>HS08</string>
 						<key>port</key>
@@ -329,9 +333,9 @@
 					<key>HS09</key>
 					<dict>
 						<key>Comment</key>
-						<string></string>
+						<string>USB Receiver</string>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>HS09</string>
 						<key>port</key>
@@ -420,7 +424,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMac20,2</string>
+			<string>Macmini8,1</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
