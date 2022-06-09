@@ -1,7 +1,7 @@
 # morefine S500 hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/morefine-s500-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.0-informational.svg)](https://github.com/acidanthera/OpenCorePkg) [![MacOS version](https://img.shields.io/badge/Monterey-12.3.1%2021E258-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.5%2020G527-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.1-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.0-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.4%2021F79-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.6%2020G624-informational.svg)](https://www.apple.com/macos)
 
 [![S500](ScreenShots/S5003.png)](https://hackintosher.taobao.com)
 
@@ -10,7 +10,7 @@
 |   规格    |                           详细信息                           |
 | :-------: | :----------------------------------------------------------: |
 | 电脑型号  |                        morefine S500                         |
-| 操作系统  |     macOS `Monterey` / `Big Sur` / `Catalina` / `Mojave`     |
+| 操作系统  | macOS `Ventura` /  `Monterey` / `Big Sur` / `Catalina` / `Mojave` |
 |  处理器   |               英特尔 酷睿 i9-10880H 8核16线程                |
 |   内存    |                      32 GB DDR4 2933MHz                      |
 |  硬盘1/2  |   WD SN570 1TB/<br />支持双NVMe或NVMe+SATA SSD或双SATA SSD   |
@@ -24,13 +24,19 @@
 
 ## 更新日志
 
-- 4-20-2022
+- 6-9-2022
   
+  - Release `v1.6.0`
+  - 更新 `OpenCore` `v0.8.1`
+  - 新增对 `Ventura` 系统的支持
+  
+- 4-20-2022
+
   - Release `v1.5.0`
   - 更新 `OpenCore` `v0.8.0`
   - 优化核显加速
   - 新增对 `Catalina` 系统的支持
-  
+
 - 3-28-2022
 
   - Release `v1.4.0`
@@ -114,6 +120,8 @@
 
 ![ morefine s500](./ScreenShots/S5002.png)
 
+![Ventura](./ScreenShots/Ventura_13.0_for_S500.png)
+
 ### 支持通用控制
 
 ![DualDisplays](ScreenShots/uc1.jpg)
@@ -128,7 +136,9 @@
 
 ![Graphics](ScreenShots/ThreeDisplays3.png)
 
-![Hackintool_Misc](ScreenShots/Hackintool_Misc.png)
+![Hackintool_Misc](ScreenShots/Ventura_13.0_Hackintosh.png)
+
+![Hackintool_Misc](ScreenShots/Ventura_13.0_Hackintosh_Misc.png)
 
 ![iTerm2](ScreenShots/iTerm2.png)
 
