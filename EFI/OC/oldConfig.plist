@@ -1109,7 +1109,7 @@
             <key>Automatic</key>
             <true/>
             <key>CustomMemory</key>
-            <false/>
+            <true/>
             <key>Generic</key>
             <dict>
                 <key>AdviseFeatures</key>
