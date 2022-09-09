@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>#Build Date</key>
-	<string>8-23-2021</string>
+	<string>9-8-2022</string>
 	<key>#Maker by</key>
 	<string>morefine S500小主机专用EFI</string>
 	<key>#OpenCore Version</key>
-	<string>v0.8,3 Release</string>
+	<string>v0.8.4 Release</string>
 	<key>#Posted on</key>
 	<string>黑果小兵的部落阁 https://blog.daliansky.net</string>
 	<key>ACPI</key>
@@ -303,7 +303,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>V1.6.2 | Patch engine</string>
+				<string>V1.6.3 | Patch engine</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -321,7 +321,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>V1.3.0 | SMC emulator</string>
+				<string>V1.3.1 | SMC emulator</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -339,7 +339,7 @@
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
-				<string>V1.3.0 | SMC Sensor</string>
+				<string>V1.3.1 | SMC Sensor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -357,7 +357,7 @@
 				<key>BundlePath</key>
 				<string>SMCSuperIO.kext</string>
 				<key>Comment</key>
-				<string>V1.3.0 | SMC Sensor</string>
+				<string>V1.3.1 | SMC Sensor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -375,7 +375,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>V1.7.4 | Audio patches</string>
+				<string>V1.7.6 | Audio patches</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -393,7 +393,7 @@
 				<key>BundlePath</key>
 				<string>FeatureUnlock.kext</string>
 				<key>Comment</key>
-				<string>V1.0.9</string>
+				<string>V1.1.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -447,7 +447,7 @@
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext</string>
 				<key>Comment</key>
-				<string>V2.1.6 | Brcm Airport Fixup</string>
+				<string>V2.1.7 | Brcm Airport Fixup</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -501,7 +501,7 @@
 				<key>BundlePath</key>
 				<string>RestrictEvents.kext</string>
 				<key>Comment</key>
-				<string>V1.0.8</string>
+				<string>V1.0.9</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -537,7 +537,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>V1.6.1</string>
+				<string>V1.6.2</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -555,7 +555,7 @@
 				<key>BundlePath</key>
 				<string>BlueToolFixup.kext</string>
 				<key>Comment</key>
-				<string>V2.6.3 | BT for BCM94360Z4/Z3/Intel</string>
+				<string>V2.6.4 | BT for BCM94360Z4/Z3/Intel</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -573,7 +573,7 @@
 				<key>BundlePath</key>
 				<string>BrcmBluetoothInjector.kext</string>
 				<key>Comment</key>
-				<string>V2.6.3 | BT for BCM94360Z4/Z3</string>
+				<string>V2.6.4 | BT for BCM94360Z4/Z3</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -609,7 +609,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwm_for_Monterey.kext</string>
 				<key>Comment</key>
-				<string>V2.1.0 | INTEL WIFI for Monterey</string>
+				<string>V2.2.0 | INTEL WIFI for Monterey</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -627,7 +627,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwm_for_BigSur.kext</string>
 				<key>Comment</key>
-				<string>V2.1.0 | INTEL WIFI for BigSur</string>
+				<string>V2.2.0 | INTEL WIFI for BigSur</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -645,7 +645,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwm_for_Catalina.kext</string>
 				<key>Comment</key>
-				<string>V2.1.0 | INTEL WIFI for Catalina</string>
+				<string>V2.2.0 | INTEL WIFI for Catalina</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -663,7 +663,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwm_for_Mojave.kext</string>
 				<key>Comment</key>
-				<string>V2.1.0 | INTEL WIFI for Mojave</string>
+				<string>V2.2.0 | INTEL WIFI for Mojave</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -681,7 +681,7 @@
 				<key>BundlePath</key>
 				<string>IntelBluetoothInjector.kext</string>
 				<key>Comment</key>
-				<string>V2.2.0 | INTEL BlueTooth</string>
+				<string>V2.3.0 | INTEL BlueTooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -699,7 +699,7 @@
 				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
 				<key>Comment</key>
-				<string>V2.2.0 | INTEL BlueTooth</string>
+				<string>V2.3.0 | INTEL BlueTooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -753,7 +753,7 @@
 				<key>BundlePath</key>
 				<string>CPUFriend.kext</string>
 				<key>Comment</key>
-				<string>V1.2.6</string>
+				<string>V1.2.7</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -771,7 +771,7 @@
 				<key>BundlePath</key>
 				<string>CPUFriendDataProvider.kext</string>
 				<key>Comment</key>
-				<string>V1.0.1 | CPUFriend for Morefine S500</string>
+				<string>V1.0.0 | CPUFriend for Morefine S500</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1040,6 +1040,8 @@
 				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>CFGLock</string>
 				<key>Path</key>
@@ -1053,13 +1055,15 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Auxiliary</key>
-				<true/>
+				<false/>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>MmapDump</string>
 				<key>Path</key>
@@ -1073,13 +1077,15 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Auxiliary</key>
-				<true/>
+				<false/>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>modGRUBShell</string>
 				<key>Path</key>
@@ -1100,6 +1106,8 @@
 				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>OpenShell</string>
 				<key>Path</key>
@@ -1113,13 +1121,15 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Auxiliary</key>
-				<true/>
+				<false/>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>ControlMsrE2</string>
 				<key>Path</key>
@@ -1140,6 +1150,8 @@
 				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>CleanNvram</string>
 				<key>Path</key>
@@ -1302,7 +1314,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>HfsPlus.efi</string>
 			</dict>
@@ -1314,7 +1326,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
@@ -1326,7 +1338,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
 			</dict>
@@ -1338,7 +1350,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>CrScreenshotDxe.efi</string>
 			</dict>

@@ -1,7 +1,7 @@
 # morefine S500 hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/morefine-s500-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.3-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.0-informational.svg)[![MacOS version](https://img.shields.io/badge/Monterey-12.5%2021G72-informational.svg)](https://www.apple.com/macos)[![MacOS version](https://img.shields.io/badge/Bigsur-11.6.8%2020G730-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.4-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.0-informational.svg)[![MacOS version](https://img.shields.io/badge/Monterey-12.5.1%2021G83-informational.svg)](https://www.apple.com/macos)[![MacOS version](https://img.shields.io/badge/Bigsur-11.6.8%2020G730-informational.svg)](https://www.apple.com/macos)
 
 [![S500](ScreenShots/S5003.png)](https://hackintosher.taobao.com)
 
@@ -24,6 +24,11 @@
 
 ## 更新日志
 
+- 9-8-2022
+  
+  - Release `v1.9.0`
+  - 更新 `OpenCore` `v0.8.4`
+  
 - 8-4-2022
   
   - Release `v1.8.0`
