@@ -24,16 +24,22 @@
 
 ## 更新日志
 
-- 9-8-2022
+- 10-10-2022
   
+  - Release `v2.0.0`
+  - 更新 `OpenCore` `v0.8.5`
+  - 修复了 `OpenCore` 信息不注入 `Windows`
+  
+- 9-8-2022
+
   - Release `v1.9.0`
   - 更新 `OpenCore` `v0.8.4`
-  
+
 - 8-4-2022
-  
+
   - Release `v1.8.0`
   - 更新 `OpenCore` `v0.8.3`
-  
+
 - 7-6-2022
 
   - Release `v1.7.0`
