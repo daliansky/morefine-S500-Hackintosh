@@ -28,7 +28,7 @@
   
   - Release `v2.0.0`
   - 更新 `OpenCore` `v0.8.5`
-  - 修复了 `OpenCore` 信息不注入 `Windows`
+  - 修复了 `OpenCore` 信息注入 `Windows` 的错误
   
 - 9-8-2022
 
