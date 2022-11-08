@@ -489,7 +489,7 @@
                     <key>BundlePath</key>
                     <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.5 | BT for BCM94360Z4/Z3/Intel</string>
+                    <string>V2.6.4 | BT for BCM94360Z4/Z3/Intel</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -507,7 +507,7 @@
                     <key>BundlePath</key>
                     <string>BrcmBluetoothInjector.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.5 | BT for BCM94360Z4/Z3</string>
+                    <string>V2.6.4 | BT for BCM94360Z4/Z3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1149,7 +1149,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C07118701QXKXPGAD</string>
+                <string>C07137306GUKXPG8C</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1163,9 +1163,9 @@
                 <key>SystemProductName</key>
                 <string>Macmini8,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C07FN8Y0JYVX</string>
+                <string>C07GD0CBJYVX</string>
                 <key>SystemUUID</key>
-                <string>D7C2A26C-B6C9-429F-BB12-E424F89E26B2</string>
+                <string>E7354EBA-6A11-47DE-839A-9C6F8084C939</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1207,12 +1207,6 @@
                 <integer>0</integer>
                 <key>KeySubsequentDelay</key>
                 <integer>5</integer>
-                <key>PointerDwellClickTimeout</key>
-                <integer>0</integer>
-                <key>PointerDwellDoubleClickTimeout</key>
-                <integer>0</integer>
-                <key>PointerDwellRadius</key>
-                <integer>0</integer>
                 <key>PointerPollMask</key>
                 <integer>-1</integer>
                 <key>PointerPollMax</key>
