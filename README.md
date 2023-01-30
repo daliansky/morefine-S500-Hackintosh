@@ -1,7 +1,7 @@
 # morefine S500 hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/morefine-s500-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.4-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.0-informational.svg)[![MacOS version](https://img.shields.io/badge/Monterey-12.6%2021G115-informational.svg)](https://www.apple.com/macos)[![MacOS version](https://img.shields.io/badge/Bigsur-11.7%2020G817-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.9-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.2-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.6.3%2021G419-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.7.3%2020G1116-informational.svg)](https://www.apple.com/macos)
 
 [![S500](ScreenShots/S5003.png)](https://hackintosher.taobao.com)
 
@@ -24,12 +24,17 @@
 
 ## 更新日志
 
-- 10-10-2022
+- 1-30-2023
   
+  - Release `v2.1.0`
+  - 更新 `OpenCore` `v0.8.9` 开发版
+  
+- 10-10-2022
+
   - Release `v2.0.0`
   - 更新 `OpenCore` `v0.8.5`
   - 修复了 `OpenCore` 信息注入 `Windows` 的错误
-  
+
 - 9-8-2022
 
   - Release `v1.9.0`
