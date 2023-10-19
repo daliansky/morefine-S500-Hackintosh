@@ -1,7 +1,7 @@
 # morefine S500 hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/morefine-s500-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.9-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.2-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.6.3%2021G419-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.7.3%2020G1116-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Sonoma-14.0-informational.svg)![MacOS version](https://img.shields.io/badge/Ventura-13.6-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.6.3%2021G419-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.7.3%2020G1116-informational.svg)](https://www.apple.com/macos)
 
 [![S500](ScreenShots/S5003.png)](https://hackintosher.taobao.com)
 
@@ -10,7 +10,7 @@
 |   规格    |                           详细信息                           |
 | :-------: | :----------------------------------------------------------: |
 | 电脑型号  |                        morefine S500                         |
-| 操作系统  | macOS `Ventura` /  `Monterey` / `Big Sur` / `Catalina` / `Mojave` |
+| 操作系统  | macOS `Sonoma` / `Ventura` /  `Monterey` / `Big Sur` / `Catalina` / `Mojave` |
 |  处理器   |               英特尔 酷睿 i9-10880H 8核16线程                |
 |   内存    |                      32 GB DDR4 2933MHz                      |
 |  硬盘1/2  |   WD SN570 1TB/<br />支持双NVMe或NVMe+SATA SSD或双SATA SSD   |
@@ -24,6 +24,12 @@
 
 ## 更新日志
 
+- 10-19-2023
+  
+  - 更新 `OpenCore` 到 `v0.9.5`
+  - 提供对 `Sonoma` 的初步支持
+  - 博通网卡需要使用 `OCLP` 打补丁，附：[教程链接](https://blog.daliansky.net/OCLP.html)
+  
 - 1-30-2023
   
   - Release `v2.1.0`
