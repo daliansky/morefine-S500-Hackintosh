@@ -3,11 +3,11 @@
 <plist version="1.0">
     <dict>
         <key>#Build Date</key>
-        <string>10-10-2022</string>
+        <string>11-1-2023</string>
         <key>#Maker by</key>
         <string>morefine S500小主机专用EFI</string>
         <key>#OpenCore Version</key>
-        <string>v0.8.5 Release</string>
+        <string>v0.9.5 Release</string>
         <key>#Posted on</key>
         <string>黑果小兵的部落阁 https://blog.daliansky.net</string>
         <key>ACPI</key>
@@ -300,6 +300,24 @@
                     <string></string>
                     <key>MinKernel</key>
                     <string>10.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AMFIPass.kext</string>
+                    <key>Comment</key>
+                    <string>V1.4.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AMFIPass</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -1100,12 +1118,33 @@
         <dict>
             <key>Add</key>
             <dict>
+                <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+                <dict>
+                    <key>OCLP-Settings</key>
+                    <string>-allow_amfi</string>
+                    <key>revblock</key>
+                    <string>media</string>
+                    <key>revpatch</key>
+                    <string>sbvmm</string>
+                    <key>rtc-blacklist</key>
+                    <data></data>
+                </dict>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
+                    <key># BCM94360 csr-active-config</key>
+                    <data>AwgAAA==</data>
+                    <key>#csr-active-config (SIP enabled)</key>
+                    <data>AAAAAA==</data>
+                    <key>#csr-active-config (macOS 10.13)</key>
+                    <data>/wMAAA==</data>
+                    <key>#csr-active-config (macOS 10.14/10.15)</key>
+                    <data>7wcAAA==</data>
+                    <key>#csr-active-config (macOS 11/12/13)</key>
+                    <data>AwgAAA==</data>
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>amfi=0x80 revpatch=sbvmm ipc_control_port_options=0 -revsbvmm -cdfon alcid=5 brcmfx-country=#a brcmfx-aspm igfxonln=1 -lilubetaall -igfxrpsc=1</string>
+                    <string>ipc_control_port_options=0 -no_compat_check -cdfon alcid=5 brcmfx-country=#a brcmfx-aspm igfxonln=1 -lilubetaall -igfxrpsc=1</string>
                     <key>csr-active-config</key>
                     <data>AwgAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1116,10 +1155,17 @@
             </dict>
             <key>Delete</key>
             <dict>
+                <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+                <array>
+                    <string>OCLP-Version</string>
+                    <string>rtc-blacklist</string>
+                    <string>revblock</string>
+                    <string>revpatch</string>
+                </array>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <array>
-                    <string>boot-args</string>
                     <string>csr-active-config</string>
+                    <string>boot-args</string>
                 </array>
             </dict>
             <key>LegacyOverwrite</key>
