@@ -1,7 +1,7 @@
 # morefine S500 hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/morefine-s500-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Sonoma-14.0-informational.svg)![MacOS version](https://img.shields.io/badge/Ventura-13.6-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.6.3%2021G419-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.7.3%2020G1116-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Sonoma-14.4.1-informational.svg)![MacOS version](https://img.shields.io/badge/Ventura-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-informational.svg)](https://www.apple.com/macos)
 
 [![S500](ScreenShots/S5003.png)](https://hackintosher.taobao.com)
 
@@ -24,6 +24,11 @@
 
 ## 更新日志
 
+- 3-27-2024
+  
+  - 更新 `IOSkywalkFamily.kext` 到 `v1.1.0`
+  - `Sonoma` 如果想更新到 `14.4.1` 请务必先更新 `EFI` ，然后再安装 [OCLP](https://pan.daliansky.net/APPS/OCLP/OCLP.md)，重启后，再升级到 `14.4.1` 否则会出现 `WIFI` 无法启用的问题
+  
 - 10-19-2023
   
   - 更新 `OpenCore` 到 `v0.9.5`
