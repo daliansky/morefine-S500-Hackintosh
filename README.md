@@ -1,7 +1,7 @@
 # morefine S500 hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/morefine-s500-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Sonoma-14.4.1-informational.svg)![MacOS version](https://img.shields.io/badge/Ventura-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS Sequoia](https://img.shields.io/badge/Sequoia-informational.svg)![MacOS Sonoma](https://img.shields.io/badge/Sonoma-informational.svg)![MacOS Ventura](https://img.shields.io/badge/Ventura-informational.svg) [![MacOS Monterey](https://img.shields.io/badge/Monterey-informational.svg)](https://www.apple.com/macos) [![MacOS Big Sur](https://img.shields.io/badge/Bigsur-informational.svg)](https://www.apple.com/macos)
 
 [![S500](ScreenShots/S5003.png)](https://hackintosher.taobao.com)
 
@@ -10,7 +10,7 @@
 |   规格    |                           详细信息                           |
 | :-------: | :----------------------------------------------------------: |
 | 电脑型号  |                        morefine S500                         |
-| 操作系统  | macOS `Sonoma` / `Ventura` /  `Monterey` / `Big Sur` / `Catalina` / `Mojave` |
+| 操作系统  | macOS `Sequoia` / `Sonoma` / `Ventura` /  `Monterey` / </br>`Big Sur` / `Catalina` / `Mojave` |
 |  处理器   |               英特尔 酷睿 i9-10880H 8核16线程                |
 |   内存    |                      32 GB DDR4 2933MHz                      |
 |  硬盘1/2  |   WD SN570 1TB/<br />支持双NVMe或NVMe+SATA SSD或双SATA SSD   |
@@ -24,6 +24,12 @@
 
 ## 更新日志
 
+- 9-22-2024
+  
+  - 更新 `OpenCore` `v1.0.1`
+  - 更新 `IOSkywalkFamily.kext` 到 `v1.2.0`
+  - 支持 `Sequoia` (博通无线网卡)
+  
 - 3-27-2024
   
   - 更新 `IOSkywalkFamily.kext` 到 `v1.1.0`
@@ -157,7 +163,7 @@
 
 ![ morefine s500](./ScreenShots/S5002.png)
 
-![OpenCore](ScreenShots/OpenCore.png)
+![OpenCore](ScreenShots/Sequoia_for_S500.png)
 
 ![Ventura](./ScreenShots/Ventura_13.0_for_S500.png)
 
