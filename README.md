@@ -1,7 +1,7 @@
 # morefine S500 hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/morefine-s500-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS Sequoia](https://img.shields.io/badge/Sequoia-informational.svg)![MacOS Sonoma](https://img.shields.io/badge/Sonoma-informational.svg)![MacOS Ventura](https://img.shields.io/badge/Ventura-informational.svg) [![MacOS Monterey](https://img.shields.io/badge/Monterey-informational.svg)](https://www.apple.com/macos) [![MacOS Big Sur](https://img.shields.io/badge/Bigsur-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.1-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS Sequoia](https://img.shields.io/badge/Sequoia-informational.svg)![MacOS Sonoma](https://img.shields.io/badge/Sonoma-informational.svg)![MacOS Ventura](https://img.shields.io/badge/Ventura-informational.svg)[![MacOS Monterey](https://img.shields.io/badge/Monterey-informational.svg)](https://www.apple.com/macos)[![MacOS Big Sur](https://img.shields.io/badge/Bigsur-informational.svg)](https://www.apple.com/macos)
 
 [![S500](ScreenShots/S5003.png)](https://hackintosher.taobao.com)
 
