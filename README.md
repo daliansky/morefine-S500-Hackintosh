@@ -1,7 +1,7 @@
 # morefine S500 hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/morefine-s500-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.1-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS Sequoia](https://img.shields.io/badge/Sequoia-informational.svg)![MacOS Sonoma](https://img.shields.io/badge/Sonoma-informational.svg)![MacOS Ventura](https://img.shields.io/badge/Ventura-informational.svg)[![MacOS Monterey](https://img.shields.io/badge/Monterey-informational.svg)](https://www.apple.com/macos)[![MacOS Big Sur](https://img.shields.io/badge/Bigsur-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.3-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS Sequoia](https://img.shields.io/badge/Sequoia-informational.svg)![MacOS Sonoma](https://img.shields.io/badge/Sonoma-informational.svg)![MacOS Ventura](https://img.shields.io/badge/Ventura-informational.svg)[![MacOS Monterey](https://img.shields.io/badge/Monterey-informational.svg)](https://www.apple.com/macos)[![MacOS Big Sur](https://img.shields.io/badge/Bigsur-informational.svg)](https://www.apple.com/macos)
 
 [![S500](ScreenShots/S5003.png)](https://hackintosher.taobao.com)
 
@@ -24,28 +24,32 @@
 
 ## 更新日志
 
-- 9-22-2024
+- 12-9-2024
   
+  - 更新 `OpenCore` `v1.0.3`
+  
+- 9-22-2024
+
   - 更新 `OpenCore` `v1.0.1`
   - 更新 `IOSkywalkFamily.kext` 到 `v1.2.0`
   - 支持 `Sequoia` (博通无线网卡)
-  
+
 - 3-27-2024
-  
+
   - 更新 `IOSkywalkFamily.kext` 到 `v1.1.0`
   - `Sonoma` 如果想更新到 `14.4.1` 请务必先更新 `EFI` ，然后再安装 [OCLP](https://pan.daliansky.net/APPS/OCLP/OCLP.md)，重启后，再升级到 `14.4.1` 否则会出现 `WIFI` 无法启用的问题
-  
+
 - 10-19-2023
-  
+
   - 更新 `OpenCore` 到 `v0.9.5`
   - 提供对 `Sonoma` 的初步支持
   - 博通网卡需要使用 `OCLP` 打补丁，附：[教程链接](https://blog.daliansky.net/OCLP.html)
-  
+
 - 1-30-2023
-  
+
   - Release `v2.1.0`
   - 更新 `OpenCore` `v0.8.9` 开发版
-  
+
 - 10-10-2022
 
   - Release `v2.0.0`
