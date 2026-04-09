@@ -27,7 +27,7 @@
 - 3-30-2026
   
   - 更新 `OpenCore` `v1.0.8` `MOD`
-  - 支持 `Tahoe`
+  - 支持 `Tahoe`,博通网卡需要安装 [OCLP](https://pan.daliansky.net/APPS/OCLP/OCLP.md)，Intel 无线网卡请使用[Heliport](https://github.com/OpenIntelWireless/heliport)管理 WIFI
   
 - 12-9-2024
   
